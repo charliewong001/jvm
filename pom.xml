@@ -3,4 +3,11 @@
   <groupId>jvm</groupId>
   <artifactId>jvm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+        <groupId>cglib</groupId>
+        <artifactId>cglib</artifactId>
+        <version>3.2.4</version>
+    </dependency>
+  </dependencies>
 </project>
