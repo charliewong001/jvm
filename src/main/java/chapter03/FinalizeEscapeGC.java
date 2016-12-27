@@ -4,6 +4,9 @@ package chapter03;
  * 
  * @author Charlie
  * @description
+ * 通过重写finalize方法，将自己存入一个root引用链,从而逃避回收
+ * 因为finalize方法只会被jvm调用一次,所以也只能逃避回收一次
+ * 注意：finalize此方法永远不要重写
  */
 public class FinalizeEscapeGC {
 

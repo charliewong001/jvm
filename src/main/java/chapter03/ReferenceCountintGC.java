@@ -1,7 +1,7 @@
 package chapter03;
 
 /**
- * 
+ * 垃圾收集器通过可达性分析来判断对象是否存活，而不是引用计数算法
  * @author Charlie
  * @description
  * 虚拟机并没有因
