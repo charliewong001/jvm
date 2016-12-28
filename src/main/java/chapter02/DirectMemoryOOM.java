@@ -6,7 +6,9 @@ import sun.misc.Unsafe;
 
 /**
  * 本机直接内存溢出
- * VM Args:-Xmx20M-XX:MaxDirectMemorySize=10M
+ * VM Args
+ * -Xmx20M
+ * -XX:MaxDirectMemorySize=10M
  * @author Charlie
  * @description
  * DirectMemory容量可通过-XX：MaxDirectMemorySize指定，如果不指定，则默认与Java

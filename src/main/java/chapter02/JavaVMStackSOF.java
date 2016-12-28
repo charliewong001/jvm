@@ -2,7 +2,7 @@ package chapter02;
 
 /**
  * VM Args:虚拟机参数
- * -Xss128K虚拟机栈的大小位128K
+ * -Xss128K虚拟机栈的大小为128K
  * @author Charlie
  * @description 测试虚拟机栈(VMStack)StackOverflowError栈内存溢出
  * 测试代码中,递归调用方法,导致栈深度不断增大，最终触发虚拟机的最大允许栈深度，导致StackOverflowError
