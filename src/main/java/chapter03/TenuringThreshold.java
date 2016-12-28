@@ -9,7 +9,7 @@ package chapter03;
  *-Xmn10M
  *-XX:+PrintGCDetails
  *-XX:SurvivorRatio=8
- *-XX:MaxTenuringThreshold=1
+ *-XX:MaxTenuringThreshold=1/15
  *-XX:+PrintTenuringDistribution
  * @author Charlie
  * @description
