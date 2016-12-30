@@ -3,6 +3,11 @@ package chapter04;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * jconsole线程监视
+ * @author Charlie
+ * @description
+ */
 public class Threads {
     /**
      *线程死循环演示
