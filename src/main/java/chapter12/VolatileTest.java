@@ -22,6 +22,8 @@ public class VolatileTest {
             });
             threads[i].start();
         }
+        while (Thread.activeCount() > 1)
+            Thread.yield();
         System.out.println(num);
     }
 
