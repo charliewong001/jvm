@@ -1,6 +1,9 @@
 package chapter03;
 
 /**
+ * VM Args
+ * -verbose:class 打印加载的类
+ * -XX:+TraceLoadedClass  打印加载的类
  * 垃圾收集器通过可达性分析来判断对象是否存活，而不是引用计数算法
  * @author Charlie
  * @description
