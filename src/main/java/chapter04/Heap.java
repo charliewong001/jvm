@@ -15,6 +15,7 @@ public class Heap {
      * @throws InterruptedException
      */
     public static void fillHeap(int num) throws InterruptedException {
+        Thread.sleep(10000);
         List<OOMObject> list = new ArrayList<OOMObject>();
         for (int i = 0; i < num; i++) {
             //稍作延时,令监视曲线的变化更加明显
