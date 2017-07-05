@@ -13,6 +13,12 @@ public class Test {
         //        }
         //        long end = System.nanoTime();
         //        System.out.println(end - start);
+
+        if (true) {
+            System.out.println("a");
+        } else {
+            System.out.println("b");
+        }
     }
 
 }
